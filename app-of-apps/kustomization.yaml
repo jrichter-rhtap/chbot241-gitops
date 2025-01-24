@@ -1,0 +1,10 @@
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+commonLabels:         
+  rhtap/gitops: chbot241 
+  janus-idp.io/tekton: chbot241
+  backstage.io/kubernetes-id: chbot241
+  backstage.io/kubernetes-namespace: rhdh-app 
+  app.kubernetes.io/part-of: chbot241
+resources: 
+- application-dev.yaml

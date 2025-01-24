@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: chbot241-database-config
+data:
+  VECTORDB_HOST: "chbot241-database"
+  VECTORDB_PORT: ""
